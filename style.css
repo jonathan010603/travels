@@ -1,0 +1,43 @@
+.navbar {
+    padding: 25px !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --main-color: #8e44ad;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#navbarCollapse {
+    transition: all ease-in-out 0.1s !important;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+}
+
+.nav-item {
+    font-size: 20px !important;
+}
+
+.home {
+    height: 70vh;
+}
+
+.home img {
+    height: 85vh;
+    object-fit: cover;
+}
+
+.carousel-item {
+    transition: all ease-in-out 0.3s !important;
+}
