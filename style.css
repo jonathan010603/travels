@@ -55,12 +55,24 @@ body {
     font-size: 25px;
 }
 
-.carousel-caption h3, h5 {
-    text-shadow: 3px 3px 10px rgba(0,0,0,0.19);
+@media screen and (max-width: 410px) {
+    .carousel-caption h3 {
+        font-size: 40px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 15px;
+    }
+}
+
+.carousel-caption h3,
+h5 {
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.19);
 }
 
 .services {
-    margin: 8vh 0;
+    margin: 8vh auto;
+    width: 85%;
 }
 
 .services h1 {
@@ -80,7 +92,11 @@ body {
     background-color: #ee7600;
 }
 
-
+@media screen and (max-width: 341px) {
+    .services-box {
+        margin: 0 auto;
+    }
+}
 
 .services-box h3 {
     font-size: 15px !important;
@@ -90,8 +106,39 @@ body {
     width: 70% !important;
 }
 
+.about-us {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.about-us div {
+    padding: 20px;
+    background-color: #dad8d85b;
+}
+
+.about-us img {
+    height: 50vh;
+    width: 34vw;
+}
+
+@media screen and (max-width: 767px) {
+    .about-us img {
+        height: 60vh;
+        object-fit: cover;
+        width: 100% !important;
+    }
+}
+
+.about-us button {
+    width: 180px;
+    background-color: #ee7600 !important;
+    border: none;
+}
+
 .footer {
-    padding: 37px;
+    width: 85%;
+    margin: 5vh auto 3vh auto;
+    padding-top: 2vh;
 }
 
 .footer-col {}
