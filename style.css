@@ -51,7 +51,11 @@ body {
     font-size: 60px;
 }
 
-.carousel-caption span, h3 {
+.carousel-caption h5 {
+    font-size: 25px;
+}
+
+.carousel-caption h3, h5 {
     text-shadow: 3px 3px 10px rgba(0,0,0,0.19);
 }
 
@@ -63,27 +67,20 @@ body {
     margin-bottom: 5vh;
 }
 
+.services-wrapper {
+    gap: 10px;
+}
+
 .services-box {
     padding: 2%;
     height: 140px;
     width: 140px;
+    max-width: 140px;
     text-align: center;
     background-color: #ee7600;
 }
 
-@media screen and (max-width: 980px) {
-    .services-box {
-        height: 110px;
-        width: 110px;
-    }
-}
 
-@media screen and (max-width: 767px) {
-    .services-box {
-        height: 150px;
-        width: 150px;
-    }
-}
 
 .services-box h3 {
     font-size: 15px !important;
