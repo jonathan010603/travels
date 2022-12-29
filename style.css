@@ -42,14 +42,24 @@ body {
     transition: all ease-in-out 0.3s !important;
 }
 
-.footer {
-    margin: 10vh 0;
+.services-box {
+    padding: 2%;
+    height: 150px;
+    width:150px;
+    text-align: center;
+    background-color: #ee7600;
 }
 
-@media only screen and (max-width: 745px) {
-    .footer {
-        flex-direction: column !important;
-    }
+.services-box h3 {
+    font-size: 20px !important;
+}
+
+.services-box img {
+    width: 70% !important;
+}
+
+.footer {
+    padding: 37px;
 }
 
 .footer-col {}
