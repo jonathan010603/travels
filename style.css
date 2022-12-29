@@ -75,6 +75,13 @@ h5 {
     width: 85%;
 }
 
+@media screen and (max-width: 1047px) {
+    
+    .services-box {
+        flex-basis: 25% !important;
+    }
+}
+
 .services h1 {
     margin-bottom: 5vh;
 }
@@ -83,11 +90,18 @@ h5 {
     gap: 10px;
 }
 
+@media screen and (max-width: 517px) {
+    .services-wrapper {
+        max-width: 300px;
+    }
+}
+
 .services-box {
     padding: 2%;
     height: 140px;
     width: 140px;
-    max-width: 140px;
+    max-width: 222px;
+    min-width: 140px;
     text-align: center;
     background-color: #ee7600;
 }
