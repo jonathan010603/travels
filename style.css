@@ -30,16 +30,29 @@ body {
 }
 
 .home {
-    height: 70vh;
+    height: 73vh;
 }
 
 .home img {
-    height: 70vh;
+    height: 73vh;
     object-fit: cover;
 }
 
 .carousel-item {
     transition: all ease-in-out 0.3s !important;
+}
+
+.carousel-caption {
+    top: 29% !important;
+}
+
+.carousel-caption h3 {
+    margin-top: 2vh !important;
+    font-size: 60px;
+}
+
+.carousel-caption span, h3 {
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.19);
 }
 
 .services {
