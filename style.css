@@ -30,7 +30,7 @@ body {
 }
 
 .home {
-    height: 70vh;
+    height: 85vh;
 }
 
 .home img {
@@ -41,3 +41,15 @@ body {
 .carousel-item {
     transition: all ease-in-out 0.3s !important;
 }
+
+.footer {
+    margin: 10vh 0;
+}
+
+@media only screen and (max-width: 745px) {
+    .footer {
+        flex-direction: column !important;
+    }
+}
+
+.footer-col {}
