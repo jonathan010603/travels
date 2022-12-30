@@ -114,10 +114,11 @@ h5 {
 
 .services-box h3 {
     font-size: 15px !important;
+    margin: 0;
 }
 
 .services-box img {
-    width: 70% !important;
+    width: 50% !important;
 }
 
 .about-us {
